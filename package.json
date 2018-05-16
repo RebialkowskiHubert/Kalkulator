@@ -1,0 +1,25 @@
+{
+  "name": "kalkulator",
+  "version": "1.0.0",
+  "description": "A simple application to perform calculation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RebialkowskiHubert/Kalkulator.git"
+  },
+  "keywords": [
+    "calc"
+  ],
+  "author": "Hubert Rębiałkowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RebialkowskiHubert/Kalkulator/issues"
+  },
+  "homepage": "https://github.com/RebialkowskiHubert/Kalkulator#readme",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}
