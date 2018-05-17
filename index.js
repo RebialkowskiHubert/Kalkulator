@@ -13,8 +13,8 @@ let win;
 function createWindow(){
     //inicjalizacja okna
     win = new BrowserWindow({
-        width: 300,
-        height: 300,
+        width: 340,
+        height: 500,
         icon: __dirname + './img/icon.png'
     });
 

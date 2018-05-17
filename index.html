@@ -1,14 +1,138 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <title>Kalkulator</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
-    <h1>Kalkulator</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Standardowy</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input type="text" value="0" id="wynik"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <button class="btn" id="mc">MC</button>
+            </div>
+            <div class="col-2">
+                <button class="btn" id="mr">MR</button>
+            </div>
+            <div class="col-2">
+                <button class="btn" id="mplus">M+</button>
+            </div>
+            <div class="col-2">
+                <button class="btn" id="mminus">M-</button>
+            </div>
+            <div class="col-2">
+                <button class="btn" id="ms">MS</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-rzad" id="proc">%</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="pierw">&radic;</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="pot">x<sup>2</sup></button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="odwr">1/x</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-rzad" id="ce">CE</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="c">C</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="bck">&leftarrow;</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="dziel">&divide;</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l7">7</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l8">8</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l9">9</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="mnoz">X</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l4">4</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l5">5</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l6">6</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="minus">-</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l1">1</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l2">2</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l3">3</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="plus">+</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-rzad" id="plusmin">&plusmn;</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad licz" id="l0">0</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="przec">,</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-rzad" id="rowna">=</button>
+            </div>
+        </div>
+    </div>
 </body>
 <script>
     require('./renderer.js');
 </script>
+
 </html>
