@@ -14,7 +14,7 @@ function createWindow(){
     //inicjalizacja okna
     win = new BrowserWindow({
         width: 340,
-        height: 500,
+        height: 600,
         icon: __dirname + './img/icon.png'
     });
 
